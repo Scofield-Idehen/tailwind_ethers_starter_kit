@@ -15,8 +15,9 @@ const CreateProject = () => {
                     focus:outline-none"
                     onClick={() => setGlobalState('createmodal', 'scale-0' )}
                     >
+                        
                         <FaTimes />
-
+                        
                     </button>
                 </div>
                 <div className=' flex justify-center items-center mt-5'>

@@ -17,7 +17,7 @@ const Hero = () => {
         <button type='button'
                 className=' inline-block px-6 py-2.5 bg-green-500 text-white font-medium text-xs leading-tight uppercase
                 rounded-full showdow-md  hover:bg-green-600 '
-                onClick={() => setGlobalState('createmodal', 'scale-100' )}
+                onClick={() => setGlobalState('createmodal', 'scale-0' )}
                 >
                    Add Project
         </button>
